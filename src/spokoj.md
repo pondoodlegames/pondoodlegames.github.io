@@ -8,7 +8,7 @@ desc: Privacy policy of the game Pełen Spokój (Capybara Calm) by Pondoodle Gam
 
 Effective date: 3 November 2026. Developer: Pondoodle Games. Contact: pondoodlegames@yahoo.com.
 
-This policy covers the game published as Pełen Spokój, Capybara Calm and its localized names in Google Play and the App Store (Android package `com.pondoodlegames.spokoj`), and its test version `com.pondoodlegames.spokoj.test`.
+This policy covers the game published as Pełen Spokój, Capybara Calm and its localized names in Google Play and the App Store (Android package `com.pondoodlegames.calm`), and its test version `com.pondoodlegames.calm.test`.
 
 ## In short
 
@@ -59,7 +59,7 @@ We publish new versions of this policy at this address. If the game ever starts 
 
 Data obowiązywania: 3 listopada 2026. Twórca: Pondoodle Games. Kontakt: pondoodlegames@yahoo.com.
 
-Polityka dotyczy gry wydanej jako Pełen Spokój, Capybara Calm i pod przetłumaczonymi nazwami w Google Play i App Store (pakiet Androida `com.pondoodlegames.spokoj`) oraz jej wersji testowej `com.pondoodlegames.spokoj.test`.
+Polityka dotyczy gry wydanej jako Pełen Spokój, Capybara Calm i pod przetłumaczonymi nazwami w Google Play i App Store (pakiet Androida `com.pondoodlegames.calm`) oraz jej wersji testowej `com.pondoodlegames.calm.test`.
 
 ## W skrócie
 
