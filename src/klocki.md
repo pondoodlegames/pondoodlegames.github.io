@@ -6,13 +6,13 @@ desc: Privacy policy of the game Capybara Blocks (Kapibarowe Klocki) by Pondoodl
 :en
 # Privacy policy: Capybara Blocks (Kapibarowe Klocki)
 
-Effective date: 8 November 2026. Developer: Pondoodle Games. Contact: pondoodlegames@yahoo.com.
+Effective date: 9 November 2026. Developer: Pondoodle Games. Contact: pondoodlegames@yahoo.com.
 
 This policy covers the full version in Google Play and the App Store (`com.pondoodlegames.blocks`), the Android test version without payments (`com.pondoodlegames.blocks.test`) and the builds for testers without payments, under every localized name of the game in the stores.
 
 ## In short
 
-The game has no accounts, no ads, no analytics and no server of its own. The game's code sends nothing over the internet. The developer receives no data about players from the game. The one exception on Google's side is described under Purchases.
+The game has no accounts, no ads, no analytics and no server of its own. Unless you turn on the optional leaderboards (Android only), the game sends nothing over the internet. The developer receives no data about players from the game. The exceptions on Google's side are described under Leaderboards and Purchases.
 
 ## What stays on the device
 
@@ -25,6 +25,24 @@ If backup is turned on, the system may keep this save data in your account and r
 ## Sharing a result
 
 When you tap "Share result" after a Daily Puzzle, the game hands the text of the result (the date, the points and the medal) to the system share sheet, and you choose where it goes. Without a share sheet, the text is copied to the clipboard. The game sends nothing itself.
+
+## Leaderboards (Android, optional)
+
+On Android the game has optional leaderboards through Google Play Games (a Google service): the Daily Puzzle, Endless 8×8 and the Big meadow 10×10. They are off by default. The Google Play Games library in the game does not start until you tap the leaderboard button in the menu and agree on the card that explains it; before that the game does not connect to Google Play Games at all.
+
+When you turn leaderboards on:
+- you sign in with your Google Play Games profile, or Google offers to create one;
+- the game sends your scores to Google Play Games: your first game of each day's Daily Puzzle and your Endless and Big meadow scores (Google keeps the best one). Your earlier records go too when you turn leaderboards on. Scores made while offline wait on the device and are sent later;
+- your score appears on the leaderboards together with your Play Games gamer name and avatar, visible to other players according to your Play Games profile settings;
+- the game reads your place on the leaderboard from Google Play Games and shows it at the end of a game;
+- if you also allow it in a separate Google prompt, the game reads your Play Games friends' names and their Daily Puzzle scores and shows them on the leaderboard card. The game keeps them only in memory while it runs: it does not save them and does not send them anywhere;
+- Google processes this data, and diagnostic data about its own service, under [Google's privacy policy](https://policies.google.com/privacy). What Google Play Games collects is described at [developer.android.com/games/pgs/data-collection](https://developer.android.com/games/pgs/data-collection).
+
+The developer sees the leaderboards the way players do (gamer names and scores) and can remove scores that look tampered with. The developer does not receive your email address or other account data.
+
+You can turn leaderboards off at any time on the Credits screen ("Leaderboards: on"). From then on the game sends nothing to the leaderboards, deletes the scores waiting on the device and forgets the friends' data. Scores already sent stay on the leaderboards; you can delete your Play Games profile and its data in the Google Play Games settings, or ask us to remove a score (give your gamer name).
+
+The iPhone and iPad version has no leaderboards. If they are added through Game Center, this policy will be updated before such a version is released.
 
 ## Purchases (full version only)
 
@@ -44,7 +62,7 @@ The game is made for players aged 13 and over. It does not collect personal data
 
 ## Permissions
 
-The game does not use the camera, microphone, location, contacts or user files. On Android it may vibrate (it can be switched off in the game's pause menu). The full Android version also has the permissions required by Google's billing library: in-app billing and network state. No Android version has the internet permission; the purchase goes through the Google Play Store app. The iPhone and iPad version asks for no permissions.
+The game does not use the camera, microphone, location, contacts or user files. On Android it may vibrate (it can be switched off in the game's pause menu). The full Android version also has the permissions required by Google's billing library: in-app billing and network state. No Android version has the internet permission; the purchase goes through the Google Play Store app and the leaderboards through Google Play services on the device. The iPhone and iPad version asks for no permissions.
 
 ## Your rights
 
@@ -52,18 +70,18 @@ The developer stores no data that could identify a player, so there is nothing t
 
 ## Changes
 
-We publish new versions at this address. If the game ever starts collecting any data (for example an optional Daily Puzzle leaderboard), we will change this document and the store declarations first.
+We publish new versions at this address. If the game ever starts collecting any other data, we will change this document and the store declarations first.
 
 :pl
 # Polityka prywatności: Kapibarowe Klocki
 
-Data obowiązywania: 8 listopada 2026. Twórca: Pondoodle Games. Kontakt: pondoodlegames@yahoo.com.
+Data obowiązywania: 9 listopada 2026. Twórca: Pondoodle Games. Kontakt: pondoodlegames@yahoo.com.
 
 Polityka dotyczy wersji pełnej w Google Play i App Store (`com.pondoodlegames.blocks`), testowej wersji na Androida bez płatności (`com.pondoodlegames.blocks.test`) oraz wersji dla testerów bez płatności, pod każdą nazwą gry w sklepach.
 
 ## W skrócie
 
-Gra nie ma kont, reklam, analityki ani własnego serwera. Kod gry niczego nie wysyła przez internet. Twórca nie otrzymuje od gry danych o grających. Jedyny wyjątek po stronie Google opisuje część „Zakupy”.
+Gra nie ma kont, reklam, analityki ani własnego serwera. Jeśli nie włączysz dobrowolnego rankingu (tylko Android), gra niczego nie wysyła przez internet. Twórca nie otrzymuje od gry danych o grających. Wyjątki po stronie Google opisują części „Ranking” i „Zakupy”.
 
 ## Co zostaje na urządzeniu
 
@@ -76,6 +94,24 @@ Jeśli w urządzeniu jest włączona kopia zapasowa, system może zachować ten 
 ## Udostępnianie wyniku
 
 Po dotknięciu „Udostępnij wynik” na końcu Łamigłówki dnia gra przekazuje tekst wyniku (datę, punkty i medal) do systemowego okna udostępniania, a użytkownik sam wybiera, dokąd go wysłać. Bez takiego okna tekst trafia do schowka. Sama gra niczego nie wysyła.
+
+## Ranking (Android, dobrowolny)
+
+Na Androidzie gra ma dobrowolny ranking w Google Play Games (usłudze Google): Łamigłówka dnia, Bez końca 8×8 i Duża łąka 10×10. Domyślnie jest wyłączony. Biblioteka Google Play Games w grze nie startuje, dopóki nie dotkniesz przycisku rankingu w menu i nie zgodzisz się na karcie, która go wyjaśnia; wcześniej gra w ogóle nie łączy się z Google Play Games.
+
+Po włączeniu rankingu:
+- logujesz się profilem Google Play Games albo Google proponuje jego założenie;
+- gra wysyła Twoje wyniki do Google Play Games: pierwszą grę każdej Łamigłówki dnia oraz wyniki Bez końca i Dużej łąki (Google zostawia najlepszy). Przy włączeniu idą też dotychczasowe rekordy. Wyniki zdobyte bez sieci czekają na urządzeniu i idą później;
+- Twój wynik pojawia się w rankingu razem z nazwą gracza i awatarem z Play Games, widocznymi dla innych graczy zgodnie z ustawieniami Twojego profilu Play Games;
+- gra odczytuje z Google Play Games Twoje miejsce w rankingu i pokazuje je na końcu gry;
+- jeśli zgodzisz się na to także w osobnym oknie Google, gra odczytuje nazwy Twoich znajomych z Play Games i ich wyniki z Łamigłówki dnia i pokazuje je na karcie rankingu. Trzyma je tylko w pamięci podczas działania: nie zapisuje ich i nigdzie nie wysyła;
+- Google przetwarza te dane, a także dane diagnostyczne o działaniu swojej usługi, zgodnie z [polityką prywatności Google](https://policies.google.com/privacy). Co zbiera Google Play Games, opisuje [developer.android.com/games/pgs/data-collection](https://developer.android.com/games/pgs/data-collection).
+
+Twórca widzi ranking tak jak gracze (nazwy graczy i wyniki) i może usunąć wyniki, które wyglądają na zmanipulowane. Twórca nie otrzymuje adresu e-mail ani innych danych konta.
+
+Ranking wyłączysz w każdej chwili na ekranie Autorów („Ranking: włączony”). Od tej chwili gra niczego nie wysyła do rankingu, usuwa wyniki czekające na urządzeniu i zapomina dane znajomych. Wysłane wcześniej wyniki zostają w rankingu; profil Play Games i jego dane usuniesz w ustawieniach Google Play Games, a o usunięcie wyniku możesz poprosić nas (podaj nazwę gracza).
+
+Wersja na iPhone'a i iPada nie ma rankingu. Jeśli pojawi się przez Game Center, zmienimy tę politykę przed wydaniem takiej wersji.
 
 ## Zakupy (tylko wersja pełna)
 
@@ -95,7 +131,7 @@ Gra jest przeznaczona dla osób od 13 lat. Nie zbiera danych osobowych, także d
 
 ## Uprawnienia
 
-Gra nie korzysta z aparatu, mikrofonu, lokalizacji, kontaktów ani plików użytkownika. Na Androidzie może wibrować (wibracje wyłącza się w pauzie gry). Pełna wersja na Androida ma też uprawnienia wymagane przez bibliotekę płatności Google: płatności w aplikacji i stan sieci. Żadna wersja na Androida nie ma uprawnienia do internetu; zakup przechodzi przez aplikację Sklep Google Play. Wersja na iPhone'a i iPada nie prosi o żadne uprawnienia.
+Gra nie korzysta z aparatu, mikrofonu, lokalizacji, kontaktów ani plików użytkownika. Na Androidzie może wibrować (wibracje wyłącza się w pauzie gry). Pełna wersja na Androida ma też uprawnienia wymagane przez bibliotekę płatności Google: płatności w aplikacji i stan sieci. Żadna wersja na Androida nie ma uprawnienia do internetu; zakup przechodzi przez aplikację Sklep Google Play, a ranking przez usługi Google Play na urządzeniu. Wersja na iPhone'a i iPada nie prosi o żadne uprawnienia.
 
 ## Prawa użytkownika
 
@@ -103,4 +139,4 @@ Twórca nie przechowuje danych, które pozwalałyby zidentyfikować gracza, wię
 
 ## Zmiany
 
-Nową wersję polityki publikujemy pod tym adresem. Jeśli gra zacznie zbierać jakiekolwiek dane (na przykład w opcjonalnym rankingu Łamigłówki dnia), najpierw zmienimy ten dokument i deklaracje w sklepie.
+Nową wersję polityki publikujemy pod tym adresem. Jeśli gra zacznie zbierać jakiekolwiek inne dane, najpierw zmienimy ten dokument i deklaracje w sklepie.
