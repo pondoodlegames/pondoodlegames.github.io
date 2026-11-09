@@ -64,9 +64,15 @@ The game is made for players aged 13 and over. It does not collect personal data
 
 The game does not use the camera, microphone, location, contacts or user files. On Android it may vibrate (it can be switched off in the game's pause menu). The full Android version also has the permissions required by Google's billing library: in-app billing and network state. No Android version has the internet permission; the purchase goes through the Google Play Store app and the leaderboards through Google Play services on the device. The iPhone and iPad version asks for no permissions.
 
-## Your rights
+## Deleting your data and your rights
 
-The developer stores no data that could identify a player, so there is nothing to provide or delete. Questions: pondoodlegames@yahoo.com. You may lodge a complaint with your data protection authority; in Poland this is the President of the Personal Data Protection Office (UODO).
+How to delete data from Capybara Blocks (Kapibarowe Klocki) by Pondoodle Games:
+1. **Data on the device** (progress, records, settings, scores waiting to be sent): uninstall the game, or clear its data in the Android settings. Nothing is kept anywhere else by the developer.
+2. **Leaderboards (Android):** turn leaderboards off on the Credits screen ("Leaderboards: on"). The game then deletes the scores waiting on the device and sends nothing more.
+3. **Scores already on the leaderboards:** email pondoodlegames@yahoo.com with the subject "Capybara Blocks: delete my scores" and your Play Games gamer name. We remove your scores from all three leaderboards (Daily Puzzle, Endless 8×8, Big meadow 10×10) and confirm by email. We keep nothing about the request except the email exchange itself.
+4. **Your Google Play Games profile** (gamer name, avatar, scores in all games): delete it in the Google Play Games settings. Google manages that data and its retention under Google's privacy policy.
+
+Purchase records are kept by Google Play under Google's terms; the developer cannot delete them. The developer stores no other data that could identify a player. You may lodge a complaint with your data protection authority; in Poland this is the President of the Personal Data Protection Office (UODO).
 
 ## Changes
 
@@ -133,9 +139,15 @@ Gra jest przeznaczona dla osób od 13 lat. Nie zbiera danych osobowych, także d
 
 Gra nie korzysta z aparatu, mikrofonu, lokalizacji, kontaktów ani plików użytkownika. Na Androidzie może wibrować (wibracje wyłącza się w pauzie gry). Pełna wersja na Androida ma też uprawnienia wymagane przez bibliotekę płatności Google: płatności w aplikacji i stan sieci. Żadna wersja na Androida nie ma uprawnienia do internetu; zakup przechodzi przez aplikację Sklep Google Play, a ranking przez usługi Google Play na urządzeniu. Wersja na iPhone'a i iPada nie prosi o żadne uprawnienia.
 
-## Prawa użytkownika
+## Usuwanie danych i prawa użytkownika
 
-Twórca nie przechowuje danych, które pozwalałyby zidentyfikować gracza, więc nie ma czego udostępnić ani usunąć. Pytania: pondoodlegames@yahoo.com. Skargę można złożyć do Prezesa Urzędu Ochrony Danych Osobowych.
+Jak usunąć dane z gry Kapibarowe Klocki (Capybara Blocks) studia Pondoodle Games:
+1. **Dane na urządzeniu** (postęp, rekordy, ustawienia, wyniki czekające na wysłanie): odinstaluj grę albo wyczyść jej dane w ustawieniach Androida. Twórca nie przechowuje ich nigdzie indziej.
+2. **Ranking (Android):** wyłącz ranking na ekranie Autorów („Ranking: włączony”). Gra usuwa wtedy wyniki czekające na urządzeniu i niczego więcej nie wysyła.
+3. **Wyniki, które są już w rankingu:** napisz na pondoodlegames@yahoo.com z tematem „Kapibarowe Klocki: usuń moje wyniki” i podaj nazwę gracza z Play Games. Usuniemy Twoje wyniki ze wszystkich trzech tablic (Łamigłówka dnia, Bez końca 8×8, Duża łąka 10×10) i potwierdzimy to mailem. Z prośby nie zachowujemy nic poza samą korespondencją.
+4. **Profil Google Play Games** (nazwa gracza, awatar, wyniki we wszystkich grach): usuniesz go w ustawieniach Google Play Games. Tymi danymi i czasem ich przechowywania zarządza Google zgodnie ze swoją polityką prywatności.
+
+Dane zakupów przechowuje Google Play na warunkach Google; twórca nie może ich usunąć. Twórca nie przechowuje innych danych, które pozwalałyby zidentyfikować gracza. Skargę można złożyć do Prezesa Urzędu Ochrony Danych Osobowych.
 
 ## Zmiany
 
