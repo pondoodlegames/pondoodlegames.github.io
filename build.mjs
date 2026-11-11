@@ -60,6 +60,16 @@ for (const f of fs.readdirSync(path.join(ROOT, 'src')).filter(f => f.endsWith('.
   write(meta.slug, page({ title: 'Privacy · ' + meta.title, desc: meta.desc, body, depth: meta.slug.split('/').length }));
   games.push(meta);
 }
+/* Strony pomocy: src/help/<gra>.<lang>.md, jedna strona na język (nagłówek: slug, title, desc, lang, alt = adres drugiej wersji językowej) */
+const HELP = path.join(ROOT, 'src', 'help'), LANG_NAMES = { en: 'English', pl: 'Polski' };
+for (const f of fs.existsSync(HELP) ? fs.readdirSync(HELP).filter(f => f.endsWith('.md')).sort() : []) {
+  const src = fs.readFileSync(path.join(HELP, f), 'utf8');
+  const m = src.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/); if (!m) throw new Error(f + ': brak nagłówka');
+  const meta = Object.fromEntries(m[1].split('\n').map(l => [l.slice(0, l.indexOf(':')).trim(), l.slice(l.indexOf(':') + 1).trim()]));
+  const sw = ['en', 'pl'].map(l => l === meta.lang ? LANG_NAMES[l] : `<a href="${meta.alt}" lang="${l}" hreflang="${l}">${LANG_NAMES[l]}</a>`).join(' · ');
+  const body = `<p>${sw}</p>\n<section lang="${meta.lang}">\n${md(m[2])}\n</section>`;
+  write(meta.slug, page({ title: meta.title, desc: meta.desc, lang: meta.lang, body, depth: meta.slug.split('/').length }));
+}
 const list = games.map(g => `<li><a href="${g.slug.replace(/^privacy\//, '')}/">${esc(g.title)}</a></li>`).join('\n');
 write('privacy', page({ title: 'Privacy · Pondoodle Games', desc: 'Privacy policies of Pondoodle Games apps', depth: 1, body: `<section lang="en"><h1>Privacy policies</h1>
 <p>Our games have no accounts, ads or analytics, and their code sends nothing over the internet. Each game has its own policy:</p>

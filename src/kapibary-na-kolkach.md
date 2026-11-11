@@ -8,6 +8,8 @@ desc: Privacy policy of the game Capybaras on Wheels (Kapibary na kółkach) by 
 
 Effective date: 6 November 2026. Developer: Pondoodle Games. Contact: pondoodlegames@yahoo.com.
 
+Help with the game: [help page](../../kapibary-na-kolkach/help/).
+
 This policy covers the game in Google Play and the App Store (`com.pondoodlegames.wheels`) and the Android test version without payments (`com.pondoodlegames.wheels.tester`), under every localized name of the game in the stores.
 
 ## In short
@@ -75,6 +77,8 @@ We publish new versions at this address. If the game ever starts collecting any 
 # Polityka prywatności: Kapibary na kółkach
 
 Data obowiązywania: 6 listopada 2026. Twórca: Pondoodle Games. Kontakt: pondoodlegames@yahoo.com.
+
+Pomoc do gry: [strona pomocy](../../kapibary-na-kolkach/pomoc/).
 
 Polityka dotyczy gry w Google Play i App Store (`com.pondoodlegames.wheels`) oraz testowej wersji na Androida bez płatności (`com.pondoodlegames.wheels.tester`), pod każdą nazwą gry w sklepach.
 
